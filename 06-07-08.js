@@ -11,9 +11,15 @@ function crearClasePersona() {
       // Inicializar las propiedades de la persona con los valores recibidos como argumento
 
       // Tu código aca:
-
+        constructor(nombre, edad, hobbies, amigos) {
+          this.nombre = nombre;
+          this.edad = edad;
+          this.hobbies = hobbies;
+          this.amigos = amigos;
+        }
+      }
+      
     }
-
     addFriend(nombre, edad) {
       // El método 'addFriend' recibe un string 'nombre' y un entero 'edad' y debe agregar un objeto:
       // { nombre: nombre, edad: edad} al arreglo de amigos de la persona.
